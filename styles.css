@@ -50,6 +50,27 @@ main {
     color: #007bff;
 }
 
+.note {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 0.9em; 
+    text-align: left;
+}
+
+.note a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.note a:hover {
+    text-decoration: underline; 
+}
+
 footer {
     background-color: #333;
     color: #fff;
